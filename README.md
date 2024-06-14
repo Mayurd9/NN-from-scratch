@@ -5,6 +5,7 @@ Available Options (Type as given below while giving inputs as arguments):
 2.	Output activation function: sigmoid (default), softmax (Boolean: True/False)
 3.	Cost (Loss function): Quadratic, CrossEntropy
 4.	Regularization: l1, l2
+
 Above 97% classification accuracy can be achieved by using [784,100,10] architecture, CrossEntropy loss, l2 regularization, 30 epochs.
 
 Although, MNIST dataset is used in the code, it can do classification for any dataset. Number of neurons in the input layer and the output layer has to be set as per the dataset.
